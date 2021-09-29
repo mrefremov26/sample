@@ -1,0 +1,12 @@
+.idea
+.vscode
+.env
+build
+node_modules
+storybook-static
+
+.vercel
+package-lock.json
+yarn-error.log
+/cypress/screenshots/
+/cypress/videos/

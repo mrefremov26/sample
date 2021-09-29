@@ -1,0 +1,48 @@
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 2000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (--wide-desktop) {
+  .layout {
+    & > aside {
+      position: fixed;
+      will-change: width;
+    }
+
+    & > main {
+      will-change: padding-left;
+      padding-left: 77px;
+      transition: var(--long-transition);
+    }
+  }
+
+  .layout_open {
+    & > main {
+      padding-left: 248px;
+    }
+  }
+}
+
+@media (--wide-desktop-max) {
+  .layout {
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .content {
+    max-width: none;
+    margin: inherit;
+  }
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

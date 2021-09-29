@@ -1,0 +1,11 @@
+.vscode
+dist
+node_modules
+webpack
+public
+build
+cypress
+cypress/*
+cypress/*/**.css
+src/stories/*.css
+storybook-static

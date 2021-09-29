@@ -1,0 +1,19 @@
+.spinner {
+  transition: all 0.5s ease;
+  animation: rotate 1s linear infinite;
+}
+
+.full {
+  height: 100vh;
+  display: flex;
+
+  & .spinner {
+    margin: auto;
+  }
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}

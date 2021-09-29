@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox renders correctly snapshot 1`] = `
+Array [
+  <input
+    id="happy"
+    type="checkbox"
+  />,
+  " ",
+  <label
+    htmlFor="happy"
+  />,
+]
+`;

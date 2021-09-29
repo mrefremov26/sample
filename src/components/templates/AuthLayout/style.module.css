@@ -1,0 +1,53 @@
+.section {
+  height: 100vh;
+  width: 100%;
+  background: var(--neutral-1);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  padding: 40px 64px;
+  border-radius: var(--default-br);
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 408px;
+  flex-direction: column;
+  background: var(--neutral-0);
+  box-shadow: 0 4px 4px 0 rgba(20, 15, 28, 0.1);
+
+  @media (--phone) {
+    padding: 25px 33px;
+  }
+
+  & :global(.form) {
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+
+    & > button {
+      margin-top: 15px;
+    }
+
+    & > h2 {
+      color: var(--neutral-10);
+      margin-bottom: 20px;
+      font-size: 1.6rem;
+      text-align: center;
+    }
+  }
+}
+
+.appendix {
+  padding-top: 20px;
+  margin: 0 auto;
+  font-weight: 600;
+}

@@ -1,0 +1,10 @@
+.password {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-weight: var(--default-bold-font-weight);
+
+  & a {
+    font-size: 1.2rem;
+  }
+}

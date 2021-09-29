@@ -1,0 +1,8 @@
+.postfix {
+  cursor: pointer;
+
+  & > * {
+    transform: scale(0.75);
+    padding-top: 1px;
+  }
+}

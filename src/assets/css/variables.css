@@ -1,0 +1,89 @@
+@custom-media --phone (max-width: 767px);
+@custom-media --tablet (max-width: 1024px);
+@custom-media --small-desktop (max-width: 1200px);
+@custom-media --wide-desktop-max (max-width: 1300px);
+@custom-media --xxl-desktop-max (max-width: 1400px);
+
+/* min width custom media */
+@custom-media --phone-min (min-width: 768px);
+@custom-media --desktop (min-width: 1025px);
+@custom-media --wide-desktop (min-width: 1301px);
+
+/* custom media */
+@custom-media --tablet-only (max-width: 1024px) and (min-width: 768px);
+@custom-media --custom-small-desktop (max-width: 1300px) and (min-width: 1024.01px);
+
+:root {
+  color-scheme: light dark;
+
+  --primary-color: #0073ff;
+  --head-color: white;
+  --blue-1: #ebf4ff;
+  --blue-2: #e0eeff;
+  --blue-3: #cce3ff;
+  --blue-5: #85bcff;
+  --blue-6: #52a0ff;
+  --blue-7: #0073ff;
+  --blue-8: #0169e7;
+  --blue-9: #062654;
+  --blue-10: #0560ce;
+  --blue-11: #153a6a;
+  --blue-13: #14243d;
+  --red-cold: #ff524f;
+  --dark-red: #dc4545;
+  --green: #00bf70;
+  --green-hover: #01a05e;
+  --light-green: #ebfff7;
+  --lime-green: #90ee90;
+  --deep-green: #06382f;
+  --yellow: #febb01;
+  --yellow-3: #3c3c32;
+  --light-yellow: #fff3d3;
+  --green-gradient: linear-gradient(180deg, #95d203 -97.22%, #00b4c5 168.06%);
+  --orange: #febb01;
+  --light-orange: #fff3d3;
+  --pink: #fc2390;
+  --cyan: #00c7e6;
+  --purple: #8c54ff;
+  --neutral-10: #091e42;
+  --neutral-9: #505f79;
+  --neutral-8: #6b778c;
+  --neutral-7: #808fa3;
+  --neutral-6: #a7b2c2;
+  --neutral-5: #c5ccd6;
+  --neutral-4: #d3dbe6;
+  --neutral-3: #dde5f0;
+  --neutral-2: #ebeff5;
+  --neutral-1: #f5f7f9;
+  --neutral-0: #fff;
+  --dm-neutral-0: #000;
+  --dm-neutral-1: #151920;
+  --dm-neutral-2: #3c4553;
+  --dm-neutral-3: #222937;
+  --dm-neutral-4: #3c4553;
+  --dm-neutral-5: #505968;
+  --dm-neutral-6: #636c7a;
+  --dm-neutral-7: #77818f;
+  --dm-neutral-8: #8c95a1;
+  --dm-neutral-9: #b4bac2;
+  --dm-neutral-10: #d9dde4;
+  --dark: #1e232d;
+  --logo-color: #241c31;
+  --grey: #e5e5e5;
+  --transition: 0.2s ease;
+  --long-transition: 0.5s ease;
+  --default-br: 4px;
+  --container-h-padding: 15px;
+  --item-h-padding: 15px;
+  --image-gutter: 16px;
+  --header-height: 62px;
+  --layout-gap: 24px;
+  --scrollbar-width: 4px;
+  --default-bold-font-weight: 600;
+  --dark-box-shadow-color: #0d121a;
+
+  @media (--phone) {
+    --layout-gap: 17px;
+    --layout-gap-mobile: 16px;
+  }
+}

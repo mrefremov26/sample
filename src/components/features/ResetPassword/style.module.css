@@ -1,0 +1,9 @@
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.desc {
+  margin-bottom: 10px;
+}

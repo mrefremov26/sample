@@ -1,0 +1,11 @@
+{
+  "projectId": "noq5xb",
+  "baseUrl": "http://localhost:9000",
+  "integrationFolder": "cypress/tests",
+  "env": {
+    "path_login": "/login",
+    "path_resetPassword": "/reset-password",
+    "path_tradingFloor": "/trading-floor",
+    "path_signup": "/signup"
+  }
+}
